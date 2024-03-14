@@ -1,0 +1,104 @@
+
+/* THIS IS FOR RIGHT TOP MENU MY PROFILE */
+.img-logo{
+    height:24px;
+    width:24px;
+    border-radius: 50%;
+    background-position: center;
+    border: 2px solid white;
+}
+
+.img-logo:hover{
+    border: 2px solid #d43133;
+}
+
+.my-profile-menu{
+    padding:0px;
+    display: inline-block;
+}
+
+#item {
+   
+    color: white;
+    padding: 0px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.menu {
+    position: relative;
+    display: inline-block;
+    z-index:99;
+}
+#submenu {
+    margin-top: 0px;
+    display: none;
+    position: absolute;
+    background-color: rgba(0,0,0,.85);
+    min-width: 130px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 0;
+}
+#submenu a {
+    color: white;
+    padding: 5px 16px;
+    text-decoration: none;
+    display: block;
+}
+#submenu a:hover {
+    background-color: #d43133
+}
+ /*///////////////////////////////////////////*/
+
+
+
+
+
+/* THIS IS FOR NAVIGATION STICKY */
+header {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    position: relative;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    z-index: 999;
+  }
+
+  
+  .top-bar{
+    transition: all 1200ms ease-out;
+    will-change: background;
+  }
+
+
+  .navbar{
+      padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 1200ms ease-out;
+    will-change: background;
+}
+
+#navigation-bar{
+    padding: 0px;
+
+}
+
+@media (max-width: 600px) {
+    header {
+        width: 100%;
+        text-align: center;
+        position: relative;
+
+        z-index: 999;
+      }
+ }
+ /*///////////////////////////////////////////*/
+
